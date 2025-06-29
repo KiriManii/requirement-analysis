@@ -18,6 +18,13 @@ This process ensures a shared understanding between developers, stakeholders, an
 
 4. **Cost and Time Efficiency**: Helps estimate project resources accurately, minimizing delays and overspending.
 
+## Use Case Diagrams
+
+Use case diagrams show how different users interact with the system to accomplish tasks.
+
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
+
 
 ## Key Activities in Requirement Analysis
 
@@ -52,4 +59,32 @@ These define how the system should perform:
 - **Usability**: Simple UI with clear navigation and mobile responsiveness.
 - **Scalability**: System should scale horizontally with traffic spikes.
 - **Reliability**: 99.9% uptime with automated recovery after failure.
+
+## Use Case Diagrams
+
+Use case diagrams show how different users interact with the system to accomplish tasks.
+
+![Booking System Use Case Diagram](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+Acceptance Criteria define the conditions a feature must meet to be accepted by stakeholders.
+
+They help ensure:
+- The development team knows when a feature is "done"
+- Stakeholders get what they expect
+- Testers can verify functionality accurately
+
+### Example: Checkout Feature
+
+- Users must be able to:
+  - Select available dates from a calendar
+  - Confirm booking
+  - Enter payment details
+  - Receive a confirmation email within 2 minutes
+
+✅ **Acceptance Criteria for Checkout**:
+1. Booking confirmation is shown after payment.
+2. An email is sent to the user immediately after booking.
+3. Booked dates are marked as unavailable on the calendar.
 
